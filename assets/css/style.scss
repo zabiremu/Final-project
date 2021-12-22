@@ -1,0 +1,1022 @@
+/* common section start */
+$clr1: #383838;
+$clr2: #fa2525;
+$clr3: #000000;
+$clr4: #0a8375;
+$clr5: #fff50f;
+$clr6: #fa6e44;
+$clr7: #424b7b;
+$clr8: #ffffff;
+$clr9: #e9251f;
+$clr10: #fd2d3a;
+$clr11: #fffcf9;
+$Barlow: "Barlow", sans-serif;
+$jost: "Jost", sans-serif;
+$manrope: "Manrope", sans-serif;
+$pinyou: "Pinyon Script", cursive;
+$roboto: "Roboto", sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: $clr8;
+}
+ul {
+  list-style-type: none;
+}
+.semi-bold {
+  font-family: $manrope;
+  font-weight: 600;
+  color: $clr3;
+}
+.bold {
+  font-family: $manrope;
+  font-weight: 700;
+  color: $clr3;
+}
+.regular {
+  font-family: $manrope;
+  font-weight: 400;
+}
+.jost {
+  font-family: $jost;
+  font-size: 15px;
+}
+h2.heading {
+  /* Which study level are you interested in? */
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 182%;
+  /* identical to box height, or 66px */
+  letter-spacing: -0.025em;
+  color: $clr3;
+}
+h3.heading {
+  /* Your Right guideline is Fill Up others Dreams */
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 122.4%;
+  /* or 51px */
+  letter-spacing: -0.03em;
+  color: $clr3;
+}
+img{
+    display: block;
+    width: 100%;
+}
+/* common section end */
+/* menu section start */
+header{  
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+#menu {
+  ul {
+    li {
+      a {
+        display: block;
+        font-family: $manrope;
+        font-weight: 600;
+        font-size: 15px;
+        color: $clr1;
+        line-height: 20px;
+        margin: 17px 13px;
+        transition: all linear 0.4s;
+      }
+      a:hover{
+          color: $clr4;
+      }
+    }
+    li:first-child a {
+      color: $clr6;
+    }
+  }
+  .login-from {
+    .sing-up {
+      border-color: transparent;
+      background: $clr7;
+      a {
+        display: block;
+        border-color: transparent;
+        /* Frame 64 */
+        /* Auto Layout */
+        padding: 6px 12px;
+        background: $clr7;
+        border-radius: 3px;
+        /* Become a Consultants */
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        /* identical to box height */
+        letter-spacing: -0.03em;
+        color: $clr8;
+        margin: 0px 10px;
+      }
+    }
+    .sing-up1 {
+      background-color: $clr6;
+      border-color: transparent;
+      a {
+        display: block;
+        border-color: transparent;
+        /* Rectangle 2 */
+        // width: 64px;
+        // height: 37px;
+        background: $clr6;
+        border-radius: 3px;
+        i:first-child {
+          color: $clr8;
+          display: inline-block;
+        }
+        i:last-child {
+          background-color: $clr8;
+          color: $clr4;
+          border: 1px solid $clr8;
+          padding: 5px 5px;
+          display: inline-block;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+}
+footer {
+  background-image: url(../image/footer_bg.jpg);
+  background-position: center;
+  height: 512px;
+  background-size: cover;
+  .footer-info {
+    h2 {
+      /* About virtual edu-consultation */
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 129.8%;
+      /* or 31px */
+      color: $clr8;
+      padding-bottom: 22px;
+      position: relative;
+    }
+    h2::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: $clr8;
+      left: 0;
+      bottom: 12px;
+    }
+    h2::before {
+      content: "";
+      position: absolute;
+      width: 20%;
+      height: 4px;
+      background-color: $clr6;
+      left: 0;
+      bottom: 11px;
+      z-index: 1;
+    }
+    ul {
+      li {
+        a {
+          /* More about edu-consultation */
+          font-family: Manrope;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 129.8%;
+          /* or 23px */
+          color: $clr8;
+          padding: 14px 0;
+          display: block;
+        }
+      }
+    }
+    input {
+      margin-top: 17px;
+    }
+    button {
+      /* Frame 23 */
+      padding: 6px 92px 7px;
+      background: $clr10;
+      border-radius: 3px;
+      /* Subscribe */
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      /* identical to box height */
+      letter-spacing: -0.01em;
+      color: $clr11;
+      margin-top: 17px;
+      margin-top: 23px;
+    }
+    .icon {
+      h4 {
+        /* Follow Us : */
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+        letter-spacing: -0.01em;
+        color: $clr8;
+        display: inline-block;
+      }
+      i {
+        display: inline-block;
+        /* Ellipse 265 */
+        padding: 12px 12px;
+        color: $clr4;
+        background: $clr8;
+        border-radius: 50%;
+        margin: 22px 0;
+      }
+    }
+  }
+}
+/* banner section start */
+#banner{
+    background-image: url(../image/banner_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 649px;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    .banner-logo{
+        position: absolute;
+        z-index: 1;
+        left: 10%;
+        top: 33%;
+        transform: translate(-50%, -50%);
+    }
+    .banner-content{
+      margin: 8% 0px 0 -1%;
+        z-index: 2;
+        h1{
+          /* Find Your Best Consaltant For Plan Your Higher Study. */
+
+font-family: $manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 114.2%;
+/* or 55px */
+letter-spacing: -0.05em;
+color: $clr8;
+padding:0 22px 38px 0px;
+span{
+  color: $clr5;
+}
+        }
+        p{
+          /* Choose your dream destination and Talk with our consultants about you confusion and take right desicion. */
+font-family:$manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: 0.01em;
+color:$clr8;
+padding: 0 0 48px 0;
+
+        }
+        .search{
+       
+          display: flex;
+          button:first-child{
+            background: $clr8;
+            padding: 15px 36.5px;
+            margin:0 10px 0 0;
+            display: flex;
+            align-items: center;
+            a{
+              display: inline-block;
+              /* Rectangle 642 */
+              // padding: 5px 54.5px;
+
+border-radius: 5px;
+color: $clr3;
+            }
+            i{
+              display: inline-block;
+              padding: 0 20px 0 0;
+            }
+          }
+        }
+        input::placeholder{
+          /* Oxford University */
+
+font-family: $jost;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.01em;
+color: $clr3;
+padding-left: 5px;
+
+        }
+        .last-btn{
+          /* Group 1357 */
+/* Rectangle 644 */
+background-color: $clr7;
+border-radius: 5px;
+margin:0 5px;
+
+i{
+  display: inline-block;
+  padding: 15px 15.5px;
+  background-color: $clr7;
+  color: $clr8;
+}
+        }
+      h6{
+        /* Ex : university,Dezzzzzzpartment,program name */
+display: inline-block;
+font-family: Jost;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.01em;
+color: $clr8;
+padding: 15px 42px 0 0;
+      }  
+    }
+    .banner-img{
+      position: absolute;
+      right: 0;
+      padding: 0 34px;
+      bottom: 0;
+      z-index: 2;
+      img{
+        width: 100%;
+      }
+    }
+}
+#banner::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39,142,129,0.85);
+    top: 0;
+}
+#banner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 72%;
+    left: -54%;
+    top: 13%;
+    background-color: #257168;
+   ;
+   transform: rotate(305deg);
+}
+/* banner section end */
+/* total user start*/
+#total-user{
+  background-color: $clr7;
+    .col-lg-3{
+      .wrapper{
+        display: flex;
+        align-items: center;
+        border-right: 4px solid #4E5990;
+        span{
+          /* 21 */
+font-family: Jost;
+font-style: normal;
+font-weight: 300;
+font-size: 65.8793px;
+line-height: 95px;
+color: #FFFFFF;
+        }
+        h4{
+          /* REGISTRATION */
+font-family: Jost;
+font-style: normal;
+font-weight: 300;
+font-size: 22.715px;
+line-height: 33px;
+/* identical to box height */
+color: #FFFFFF;
+padding-left: 10px;
+        }
+      }
+      
+    }
+    .col-lg-3:last-child{
+      .wrapper:last-child{
+        border-right:transparent;
+      }
+    }
+}
+/* total user end*/
+/* about section start */
+#about{
+  padding: 96px 0;
+  .col-lg-6{
+    .about-thumb{ 
+    img{
+      width: 100%;
+    }
+  } 
+}       
+    .col-lg-6{ 
+    .about-details{
+      h5{
+        /* A FEW WORD */
+        display: inline-block;
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #000000;   
+position: relative;
+padding: 10px 0;
+}
+      h5::before{
+        content: "";
+        position: absolute;
+        width: 60%;
+        height: 1px;
+        left: 110%;
+        top: 50%;
+        background-color: $clr3;
+        transform: translateY(-50%);
+      }
+      h3{
+        /* About Our Target */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 129.8%;
+/* or 47px */
+letter-spacing: -0.03em;
+color: #000000;
+padding: 13px 0 20px 0;
+      }
+      .about-inner{
+        position: relative;
+        padding: 20px;
+        a{
+          display: inline-block;
+          box-shadow: 0px 9.016px 13.524px rgba(255, 113, 91, 0.25);
+          border-radius: 9.016px;
+          margin: 0px 44px 0 0;
+          i{
+            display: inline-block;
+            /* Rectangle 19 */
+            padding: 20px;
+            color: $clr2;
+background: #FFF4EA;
+          }
+        }
+        h4{
+          display: inline-block;
+          /* Our mission */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 21.6384px;
+line-height: 30px;
+color: #000000;
+padding-bottom: 42px;
+        }
+        p{
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 23px;
+/* or 167% */
+color: #A79997;
+padding: 0 0 0 105px;
+        }
+      }
+      .about-inner::before{
+        content: '';
+        position: absolute;
+        left:22%;
+        bottom: 10px;
+        width: 74%;
+        height: 1px;
+        background-color: #F1E0DD;
+      }
+    }
+  }
+  
+}
+/* about section end */
+/* study section */
+#study{
+  .section-title{
+    h2{
+      /* Which study level are you interested in? */
+      
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 182%;
+/* identical to box height, or 66px */
+letter-spacing: -0.025em;
+padding: 0 0 80px 0;
+color: #000000;
+      span{
+        color:#fa2525
+      }
+      span.highlight{
+        color: #0A8375;
+      }
+    }
+  }
+  .study-details{
+    padding: 0 10px;
+    .study-thum{
+      img{
+        width: 100%;
+      }
+    }
+    h4{
+      /* Bachelor Program */
+      display: inline-block;
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+text-decoration-line: underline;
+color: #000000;
+padding: 10px 0 80px 25px;
+position: relative;
+    }
+  
+  }
+}
+/* study section */
+#guideline{
+  background-image: url(../image/consultant_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 508px;
+}
+.section-title1{
+  h2{
+    /* Your Right guideline is Fill Up */
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 122.4%;
+/* or 51px */
+letter-spacing: -0.03em;
+color: #000000;
+padding: 0 75px 36px 0;
+  }
+  h4{
+    /* Earn money by sharing your experience with others. */
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 130.5%;
+/* or 29px */
+padding: 0 100px 38px 0;
+color: #000000;
+  }
+  button{
+    /* Frame 22 */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 10px;
+
+background: #E9251F;
+box-shadow: 0px 2px 0px #410A87;
+border-radius: 3px;
+
+
+/* Become a Consultant */
+
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+// margin: 0px 10px;
+
+  }
+}
+/* most popular section start */
+#most-popular{
+  h2{
+    /* Explore most popular counrty for plan your Higher Study */
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 142.8%;
+/* or 49px */
+letter-spacing: -0.03em;
+color: #000000;
+padding: 40px 0 0 0;
+  }
+  .country-wrapper{
+    width: 20%;
+  }  
+  .country-list{
+    h5{
+      /* Asia */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 129.3%;
+/* identical to box height, or 26px */
+// text-align: center;
+letter-spacing: -0.03em;
+color: #000000;
+padding:40px 0 16px 0;
+    }
+    li{
+      /* Bangladesh */
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 182%;
+/* or 27px */
+letter-spacing: -0.025em;
+color: #0A8375;
+padding: 16px 0;
+      span{
+        display: block;
+        /* 23 University */
+font-family: Jost;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 129.3%;
+/* identical to box height, or 13px */
+// text-align: center;
+letter-spacing: -0.03em;
+color: #000000;
+      }
+    }
+    button{
+      /* Frame 21 */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.33846px 25.3077px;
+
+background: #0A8375;
+border-radius: 2.16923px;
+
+
+/* View all */
+
+font-family: Jost;
+font-style: normal;
+font-weight: 500;
+font-size: 13.0154px;
+line-height: 182%;
+/* identical to box height, or 24px */
+letter-spacing: -0.025em;
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0 140px;
+
+    }
+  }
+}
+/* most popular section end */
+/* subscribe section start */
+#subscribe{
+  background-image:linear-gradient(to bottom right, rgba(255,255,255,1),rgb(243,188,188));
+  height: 506px;
+  h2{
+    font-size: 38px;
+  }
+  h4{
+    font-weight: 400;
+    font-size: 18px;
+  }
+  input{
+    /* Group 1361 */
+/* Rectangle 550 */
+width: 290px;
+padding: 10px 10px;
+background: #FFFFFF;
+border: 1px solid #E6E2E2;
+box-sizing: border-box;
+box-shadow: inset 0px 0px 7px rgba(117, 116, 116, 0.25);
+border-radius: 5px;
+
+
+/* Your email address */
+
+font-family: Jost;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+letter-spacing: -0.01em;
+
+color: #8E8989;
+
+margin-bottom: 20px;
+  }
+  .thumb{
+    padding: 0 160px;
+  }
+}
+
+/* subscribe section end*/
+.arrow{
+padding: 15px 15px;  
+border-radius: 50%;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+/* Group */
+transform: matrix(-1, 0, 0, 1, 0, 0);
+color: #141414;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+position: absolute;
+left:0;
+top: 33%;
+transform: translateY(-50%);
+z-index: 1;
+}
+.arrow-right{
+  padding: 15px 15px;  
+  border-radius: 50%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* Group */
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+color: #141414;
+transform: matrix(-1, 0, 0, 1, 0, 0);  
+position: absolute;
+right:0;
+top: 33%;
+transform: translateY(-50%);
+}
+/* popular section start */
+#popular{
+  padding: 100px 0;
+  .section-title{
+    h2{
+      /* Popular scholarships News */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 129.3%;
+/* or 47px */
+letter-spacing: -0.03em;
+color: #000000;
+padding-bottom: 30px;
+    }
+  }
+  .popular-inner{
+    .thum{
+      img{
+        width: 100%;
+      }
+    }  
+    .content{
+      h5{
+        /* 20 Feb 2021 */
+font-family: Jost;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 126.9%;
+/* or 16px */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+display: inline-block;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+background: $clr4;
+padding: 6px 18px;
+      }
+      h4{
+        /* J-K Lt Governor launches super-75 scholarship scheme for */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 110.9%;
+/* or 24px */
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+color: #4A4747;
+padding:  0px 0;
+      }
+      p{
+        /* Not long ago I decided to improve the loading times of my website. .... */
+font-family: Jost;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+/* or 147% */
+display: flex;
+align-items: center;
+/* --c-black-20 */
+color: #6E6E6E;
+padding: 16px 0;
+      }
+      a{
+        display: inline-block;
+        /* Group 1362 */
+font-family: Jost;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+/* Line 27 */
+border-bottom: 1px solid #000000;
+padding: 16px 0 0 0;
+      }
+    }  
+    
+  }
+}
+/* popular section end */
+/* service */
+#service{
+  .service-wrapper{
+    .service-item{
+      /* Rectangle 545 */
+border: 1px solid rgba(182, 182, 182, 0.38);
+box-sizing: border-box;
+border-radius: 3px;
+      padding: 20px 20px;
+      margin: 30px 40px 30px 0;
+      img{
+        box-shadow: 0 9px 16px 0 rgba(186,94,94,.26%);
+      }
+    }
+  }
+}
+/* service */
+/* test section start */
+#test{
+  padding: 100px 0;
+  .section-title{
+    h5{
+      /* Testimonial */
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+text-transform: uppercase;
+color: #000000;
+padding: 0 0 0 0 ;
+    }
+    h2{
+      /* What People are Saying About Virtual Edu Conts. */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 55px;
+/* identical to box height, or 153% */
+color: #000000;
+padding: 0 0 0 0 ;
+    }
+    p{
+font-family: Manrope;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+color: rgba(0, 0, 0, 0.65);
+padding: 10px 0 20px 0;
+    }
+  }
+  .test-wrapper{
+    p{
+padding: 25px 0 15px 0;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 28px;
+/* or 233% */
+color: rgba(0, 0, 0, 0.65);
+    }
+    .client{
+      .client-thum{
+        img{
+
+        }
+      }
+      .content{
+        h4{
+          /* Devid Smith */
+padding: 0 0 0 15px ;
+font-family: $manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+color: #000000;
+        }
+        h5{
+          /* Art student */
+font-family: $manrope;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+color: #000000;
+padding: 0 0 0 15px ;
+        }
+      }
+    }
+  }
+  .latest-dots{
+    text-align: center;
+    li{
+      display: inline-block;
+      padding: 5px 5px;
+      font-size: 0;
+      button{
+        border-radius: 50%;
+        padding: 5px 5px;
+        background: $clr2;
+        border: transparent;
+      }
+    }
+  }
+
+}
+/* test section end */

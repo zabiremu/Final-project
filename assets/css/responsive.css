@@ -1,0 +1,280 @@
+/*     common section start  */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #banner .banner-content {
+        margin: 3% 0px 0 6%;
+    }
+    #banner .banner-content h1 {
+        font-size: 35px;
+        padding: 0 22px 15px 0px;
+    }
+    #banner .banner-content p {
+        font-size: 12px;
+        padding: 0 0 25px 0;
+    }
+    footer .footer-info button {
+        padding: 6px 70px 7px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #banner {
+        height: 580px;
+    }
+    #banner::before {
+        width: 100%;
+        height: 72%;
+        left: -65%;
+        top: 13%;
+        -webkit-transform: rotate(305deg);
+        transform: rotate(289deg);
+    }
+    #banner .banner-content {
+        margin: 6% 0px 0 -8%;
+    }
+    #banner .banner-content h1 {
+        font-size: 33px;
+        padding: 0 22px 20px 0px;
+    }
+    #banner .banner-content p {
+        font-size: 15px;
+        line-height: 27px;
+        color: #ffffff;
+        padding: 0 0 30px 0;
+    }
+    #banner .banner-content .search button:first-child a {
+        font-size: 10px;
+    }
+    #banner .banner-content .search button:first-child {
+        padding: 5px 10.5px;
+        margin: 0 10px 0 0;
+    }
+    #banner .banner-content .last-btn {
+        margin: 0 5px;
+    }
+    #banner .banner-content h6 {
+        font-size: 8px;
+        padding: 15px 42px 0 0;
+    }
+    #banner .banner-content h6 {
+        font-size: 8px;
+        padding: 15px 42px 0 0;
+    }
+    #banner .banner-content .search button:first-child i {
+        padding: 0 10px 0 0;
+    }
+    #banner .banner-img {
+        right: 50px;
+        padding: 0 0px;
+    }
+    #total-user .col-lg-3 .wrapper span {
+        font-size: 30.8793px;
+    }
+    #total-user .col-lg-3 .wrapper h4 {
+        font-size: 11.715px;
+    }
+    #about .col-lg-6 .about-details .about-inner p {
+        font-size: 6px;
+        line-height: 14px;
+        padding: 0 0 0 78px;
+    }
+    #about .col-lg-6 .about-details .about-inner h4 {
+        font-size: 15.6384px;
+        line-height: 0px;
+        padding-bottom: 42px;
+    }
+    #about .col-lg-6 .about-details .about-inner a i {
+        padding: 4px;
+    }
+    #about .col-lg-6 .about-details h3 {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30.8%;
+        letter-spacing: -0.03em;
+        color: #000000;
+        padding: 13px 0 10px 22px;
+    }
+    #about .col-lg-6 .about-details h5 {
+        display: inline-block;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 19px;
+        color: #000000;
+        position: relative;
+        padding: 10px 0 0px 25px;
+    }
+    #about {
+        padding: 50px 0;
+    }
+    #study .section-title h2 {
+        font-size: 28px;
+    }
+    #study .study-details h4 {
+        font-size: 15px;
+    }
+    #guideline {
+        height: 300px;
+    }    
+    .section-title1 h2 {
+        font-size: 23px;
+        line-height: 105.4%;
+        padding: 10px 30px 20px 0;
+    }
+    .section-title1 h4 {
+        font-size: 15px;
+        line-height: 100.5%;
+        padding: 0 32px 20px 0;
+    }
+    .section-title1 button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 5px 5px;
+        background: #E9251F;
+        -webkit-box-shadow: 0px 2px 0px #410A87;
+        box-shadow: 0px 2px 0px #410A87;
+        border-radius: 3px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 22px;
+        color: #FFFFFF;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+    }
+    .section-title1{
+        margin: 0 0 0 0;
+    }
+    #most-popular h2 {
+        font-size: 20px;
+        line-height: 142.8%;
+        letter-spacing: -0.03em;
+        color: #000000;
+        padding: 40px 315px 0 0;
+    }
+    #most-popular .country-list h5 {
+        font-size: 14px;
+        line-height: 20.3%;
+        letter-spacing: -0.03em;
+        padding: 40px 0 16px 0;
+    }
+    #most-popular .country-list li {
+        font-size: 10px;
+        line-height: 182%;
+        letter-spacing: -0.025em;
+        padding: 16px 0;
+    }
+    #most-popular .country-list li span {
+        font-size: 8px;
+        line-height: 129.3%;
+        letter-spacing: -0.03em;
+    }
+    #most-popular .country-list button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 4.33846px 20.3077px;
+        background: #0A8375;
+        border-radius: 2.16923px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8.0154px;
+        line-height: 182%;
+        letter-spacing: -0.025em;
+        color: #FFFFFF;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        margin: 10px 0 140px;
+    }
+    .form-control {
+        display: block;
+        width: 45%;
+        padding: 0px 15px;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;;
+    }
+    #banner .banner-content {
+        margin: 6% 0px 0 5%;
+    }
+    #banner .banner-logo {
+        left: 5%;
+        top: 33%;
+    }
+    #most-popular .country-wrapper {
+        margin: 0 0px -14% 0;
+    }
+    #subscribe .thumb {
+        padding: 0 15%;
+    }
+    #popular .popular-inner .content h4 {
+        font-size: 13px;
+        padding: 0px 0;
+    }
+    #popular .popular-inner .content p {
+        font-size: 10px;
+        padding: 5px 0;
+    }
+    #popular .popular-inner .content a {
+        font-size: 10px;
+        padding: 0px 0 0 0;
+    }
+    #popular {
+        padding: 5% 0;
+    }
+    #test {
+        padding: 5% 0;
+    }
+    #test .section-title h5 {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 0 0 0;
+    }
+    #test .section-title h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0 0 0 0;
+    }
+    #test .section-title p {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 10px 0 20px 0;
+    }
+}    
+/* / / common section end / / */
